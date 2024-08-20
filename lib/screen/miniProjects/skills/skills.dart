@@ -96,6 +96,16 @@ class Skills extends StatelessWidget {
                   ],
                 ),
 
+                const SizedBox(
+                  height: 20,
+                ),
+                const Divider(
+                  color: Colors.grey,
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+
                 Align(
                   alignment: Alignment.topLeft,
                     child: Text("Skill map")),

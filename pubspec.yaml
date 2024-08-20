@@ -75,6 +75,18 @@ flutter:
     - assets/icons/whatsapp.png
     - assets/images/QRcode.JPG
     - assets/images/about.jpg
+    - assets/icons/linkedin.png
+    - assets/icons/skills.png
+    - assets/icons/about.png
+    - assets/icons/expiriance.png
+    - assets/icons/playstore.png
+    - assets/icons/education.png
+    - assets/icons/star.png
+    - assets/icons/instagram.png
+    - assets/icons/Ahun-shopping.png
+    - assets/icons/Awsugn.png
+    - assets/icons/semah.png
+    - assets/images/Robel.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

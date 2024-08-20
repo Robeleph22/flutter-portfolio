@@ -264,6 +264,9 @@ class HomePage extends StatelessWidget {
                                 margin:
                                     const EdgeInsets.only(top: 0, bottom: 10),
                                 child: FrostedWidget(
+                                  onPressed: () {
+                                    currentState.launchInBrowser(resumeLink);
+                                  },
                                   childW: Center(
                                     child: Container(
                                       margin: const EdgeInsets.all(10),
@@ -276,15 +279,21 @@ class HomePage extends StatelessWidget {
                                         mainAxisAlignment:
                                             MainAxisAlignment.center,
                                         children: [
-                                          AutoSizeText(
-                                            'Software developer \n by profession, \n Artist by passion',
-                                            style: TextStyle(
-                                                // fontSize: 30,
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.w400),
-                                            maxFontSize: 25,
-                                            minFontSize: 10,
-                                            maxLines: 3,
+                                          Row(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            crossAxisAlignment: CrossAxisAlignment.center,
+                                            children: [
+                                              AutoSizeText(
+                                                "See My Resume 👀",
+                                                style: TextStyle(
+                                                    // fontSize: 30,
+                                                    color: Colors.white,
+                                                    fontWeight: FontWeight.w400),
+                                                maxFontSize: 30,
+                                                minFontSize: 22,
+                                                maxLines: 3,
+                                              ),
+                                            ],
                                           ),
                                         ],
                                       )),

@@ -5,6 +5,7 @@ class AppModel {
   String title;
   String? assetPath;
   IconData? icon;
+  Color? iconColor; // Add this line
 
   Color color;
   Widget? screen;
@@ -15,6 +16,7 @@ class AppModel {
     required this.color,
     this.assetPath,
     this.icon,
+    this.iconColor, // And this line
     this.link,
     this.screen,
   }) : assert(icon == null || assetPath == null);
